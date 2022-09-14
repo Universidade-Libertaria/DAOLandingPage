@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+textarea,
+input,
+button {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 140%;
+}
+
+button {
+  cursor: pointer;
+}
