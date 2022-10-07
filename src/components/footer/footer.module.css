@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 100%;
+}
+
+.wrapper h3 {
+    color: whitesmoke;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.buttonsContainer button {
+    border: none;
+    background-color: var(--black-500);
+    color: var(--yellow-500);
+}
+
+.buttonsContainer button:hover {
+    background-color: var(--yellow-500);
+    color: var(--black-500);
+}

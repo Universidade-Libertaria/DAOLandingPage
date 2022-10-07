@@ -1,8 +1,19 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    max-width: 60%;
+    margin: 1rem auto;
+}
+
 @media (max-width: 768px) {
-  html {
-    font-size: 87.5%;
-  }
-  .wrapper {
-    grid-template-columns: 1fr;
-  }
+    html {
+        font-size: 87.5%;
+    }
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
 }

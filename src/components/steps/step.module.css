@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 40%;
+
+    color: whitesmoke;
+}
+
+.stepContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.stepContainer h2 {
+    text-shadow: 0 0 15px var(--yellow-500);
+}
+
+.stepContainer hr {
+    width: 100%;
+    height: 2px;
+    border: none;
+    background-color: var(--yellow-700);
+}
