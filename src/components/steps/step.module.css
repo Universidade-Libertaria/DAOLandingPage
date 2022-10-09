@@ -38,3 +38,9 @@
     text-align: center;
     max-width: 80%;
 }
+
+@media (max-width: 412px) {
+    .stepContainer hr {
+        min-width: 50px;
+    }
+}
