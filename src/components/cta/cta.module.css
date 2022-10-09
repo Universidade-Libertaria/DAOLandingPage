@@ -7,7 +7,7 @@
     color: white;
 }
 
-h2 {
+.wrapper h2 {
     width: 100%;
     text-align: center;
 
@@ -17,7 +17,7 @@ h2 {
     font-family: Lobster;
 }
 
-hr {
+.wrapper hr {
     width: 90%;
     height: 2px;
     border: none;

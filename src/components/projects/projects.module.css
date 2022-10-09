@@ -1,0 +1,26 @@
+.wrapper {
+    /*  display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    max-width: 400px;
+    box-shadow: 0 0 15px var(--black-200);
+}
+
+@media (max-width: 1012px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

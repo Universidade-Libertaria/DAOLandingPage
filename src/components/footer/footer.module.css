@@ -20,7 +20,7 @@
 
 .buttonsContainer button {
     border: none;
-    background-color: var(--black-500);
+    background-color: var(--black-400);
     color: var(--yellow-500);
 }
 
