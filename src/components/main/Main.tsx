@@ -10,7 +10,12 @@ export function Main() {
                 e a propriedade privada.
             </h3>
 
-            <button>Whitepapper</button>
+            <a
+                href="https://onedrive.live.com/edit.aspx?resid=543CC2324671828D!27805&ithint=file%2cdocx&authkey=!ADYfTRYrpX71JJ8"
+                target="_blank"
+            >
+                Whitepapper
+            </a>
             <h2>Alguns de nossos projetos em andamento:</h2>
         </div>
     );

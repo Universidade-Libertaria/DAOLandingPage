@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.wrapper button {
+.wrapper a {
     width: 100%;
     max-width: 20rem;
     height: 3.75rem;
@@ -30,6 +30,7 @@
     border-radius: 93px;
     background-color: var(--black-500);
     color: whitesmoke;
+    text-decoration: none;
 
     display: flex;
     justify-content: center;
@@ -39,8 +40,7 @@
     font-weight: 600;
 }
 
-.wrapper button:hover,
-.wrapper button:focus {
+.wrapper a:hover {
     rotate: 2.5deg;
     transition: 0.3s;
 }
