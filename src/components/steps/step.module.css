@@ -41,6 +41,7 @@
 
 @media (max-width: 412px) {
     .stepContainer hr {
-        min-width: 50px;
+        /* min-width: 50px; */
+        display: none;
     }
 }
