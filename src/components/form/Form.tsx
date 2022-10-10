@@ -8,12 +8,12 @@ export function Form() {
                 method="POST"
                 className={styles.form}
             >
-                <input type="text" name="name" placeholder="Name" required />
+                <input type="text" name="name" placeholder="Nome" required />
                 <input type="email" name="email" placeholder="Email" required />
                 <input
                     type="text"
                     name="phone"
-                    placeholder="Contact Number"
+                    placeholder="Contato"
                     required
                 />
                 {/*  <label htmlFor="cars">Choose a car:</label>
@@ -26,7 +26,7 @@ export function Form() {
                 <input
                     type="select"
                     name="donation"
-                    placeholder="Donation Quantity"
+                    placeholder="Quantidade da Doação"
                     required
                 />
                 <button type="submit">Send</button>

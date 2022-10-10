@@ -37,7 +37,13 @@ button {
 @media (max-width: 1025px) {
     body {
         background-color: #f3bf22;
-        background-image: linear-gradient(180deg, #f3bf22 41%, #161616 38%);
+        background-image: linear-gradient(180deg, #f3bf22 42.5%, #161616 38%);
+    }
+}
+@media (max-width: 915px) {
+    body {
+        background-color: #f3bf22;
+        background-image: linear-gradient(180deg, #f3bf22 40%, #161616 38%);
     }
 }
 
@@ -48,16 +54,23 @@ button {
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 550px) {
     body {
         background-color: #f3bf22;
-        background-image: linear-gradient(180deg, #f3bf22 43.4%, #161616 38%);
+        background-image: linear-gradient(180deg, #f3bf22 39%, #161616 38%);
+    }
+}
+
+@media (max-width: 415px) {
+    body {
+        background-color: #f3bf22;
+        background-image: linear-gradient(180deg, #f3bf22 47%, #161616 38%);
     }
 }
 
 @media (max-width: 300px) {
     body {
         background-color: #f3bf22;
-        background-image: linear-gradient(180deg, #f3bf22 44.5%, #161616 38%);
+        background-image: linear-gradient(180deg, #f3bf22 49%, #161616 38%);
     }
 }
