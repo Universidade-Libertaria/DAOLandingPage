@@ -20,6 +20,7 @@ export function App() {
                     step="Entre no Servidor do Discord"
                     text="
                     É onde acontece o dia a dia, onde os membros interagem, discutem os próximos passos e fazem os projetos acontecerem. Lá você encontra tudo que precisa para poder participar da DAO. "
+                    link="https://discord.com/invite/universolibertario"
                 />
                 <Step
                     step="Receba e utilize as Tokens da UL"
