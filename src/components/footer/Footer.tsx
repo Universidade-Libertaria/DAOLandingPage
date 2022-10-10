@@ -4,7 +4,7 @@ import styles from "./footer.module.css";
 export function Footer() {
     return (
         <div className={styles.wrapper}>
-            <h3>Entre em contato!</h3>
+            <h3>Nossas Redes Sociais!</h3>
             <div className={styles.buttonsContainer}>
                 <button>
                     <TwitterLogo size={35} />

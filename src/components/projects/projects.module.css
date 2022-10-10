@@ -18,6 +18,14 @@
     box-shadow: 0 0 15px var(--black-200);
 }
 
+.container a {
+    text-align: center;
+}
+
+.container a img {
+    width: 70%;
+}
+
 @media (max-width: 1025px) {
     .wrapper {
         grid-template-columns: 1fr;
