@@ -57,14 +57,14 @@ button {
 @media (max-width: 550px) {
     body {
         background-color: #f3bf22;
-        background-image: linear-gradient(180deg, #f3bf22 39%, #161616 38%);
+        background-image: linear-gradient(180deg, #f3bf22 46%, #161616 38%);
     }
 }
 
 @media (max-width: 415px) {
     body {
         background-color: #f3bf22;
-        background-image: linear-gradient(180deg, #f3bf22 47%, #161616 38%);
+        background-image: linear-gradient(180deg, #f3bf22 48%, #161616 38%);
     }
 }
 
