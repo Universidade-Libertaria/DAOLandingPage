@@ -1,4 +1,5 @@
 import styles from "./step.module.css";
+import { DiscordLogo } from "phosphor-react";
 
 interface StepProps {
     step: string;
@@ -17,7 +18,12 @@ export function Step({ step, text, link }: StepProps) {
                     <hr />
                 </div>
                 <p>{text}</p>
-                {link && <a href={link}>Link do Servidor</a>}
+                {link && (
+                    <a href={link}>
+                        <DiscordLogo size={32} />
+                        <p>Acesse Aqui</p>
+                    </a>
+                )}
             </div>
         </>
     );

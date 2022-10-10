@@ -16,7 +16,7 @@ export function Form() {
                     placeholder="Contato"
                     required
                 />
-                {/*  <label htmlFor="cars">Choose a car:</label>
+                {/*   <label htmlFor="cars">Choose a car:</label>
                 <select id="cars" name="donation">
                     <option value="500">500</option>
                     <option value="saab">Saab</option>
@@ -29,7 +29,7 @@ export function Form() {
                     placeholder="Quantidade da Doação"
                     required
                 />
-                <button type="submit">Send</button>
+                <button type="submit">Enviar</button>
             </form>
         </>
     );
