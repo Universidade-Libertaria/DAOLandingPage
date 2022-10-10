@@ -20,7 +20,7 @@ export function Projects() {
                     </p>
                 </div>
                 <div className={styles.container}>
-                    <a href="https://konkin.com.br/" target="_blank">
+                    <a href="https://gazetalibertaria.news" target="_blank">
                         <img src={logoGazeta} alt="" />
                     </a>
                     <p>
@@ -32,7 +32,10 @@ export function Projects() {
                     </p>
                 </div>
                 <div className={styles.container}>
-                    <a href="https://konkin.com.br/" target="_blank">
+                    <a
+                        href="https://universidadelibertaria.com.br/clube-da-liberdade/"
+                        target="_blank"
+                    >
                         <img src={logoClubeDaLiberdade} alt="" />
                     </a>
                     <p>
