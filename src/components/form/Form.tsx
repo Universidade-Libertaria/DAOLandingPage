@@ -18,7 +18,7 @@ export function Form() {
                     id="mauticform_daoprevenda_error"
                 />
                 <div
-                    className="mauticform-message"
+                    className={styles.mauticformMessage}
                     id="mauticform_daoprevenda_message"
                 />
                 <div className={styles.mauticforminnerform}>
