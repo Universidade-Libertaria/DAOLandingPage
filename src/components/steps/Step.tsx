@@ -19,7 +19,7 @@ export function Step({ step, text, link }: StepProps) {
                 </div>
                 <p>{text}</p>
                 {link && (
-                    <a href={link}>
+                    <a href={link} target="_blank">
                         <DiscordLogo size={32} />
                         <p>Acesse Aqui</p>
                     </a>
