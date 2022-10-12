@@ -103,11 +103,11 @@ export function Form() {
                                 <option value="" disabled selected hidden>
                                     Escolha o valor
                                 </option>
-                                <option value={500}>Até 500 reais</option>
-                                <option value={1000}>
+                                <option value="Até 500">Até 500 reais</option>
+                                <option value="Entre 500 - 1000 ">
                                     Entre 500 e 1000 reais
                                 </option>
-                                <option value={5000}>
+                                <option value="Entre 1000 - 5000">
                                     Entre 1000 e 5000 reais
                                 </option>
                                 <option value="5000 +">
