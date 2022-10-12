@@ -1,6 +1,7 @@
 import styles from "../styles/thankYou.module.css";
 import logo from "../assets/Logo.svg";
 import { DiscordLogo } from "phosphor-react";
+import { NavLink } from "react-router-dom";
 
 export function ThankYou() {
     return (
@@ -14,9 +15,7 @@ export function ThankYou() {
                             Entraremos em contato assim que tivermos novidades!
                         </p>
 
-                        <a href="https://dao-landing-page-fawn.vercel.app/">
-                            Voltar
-                        </a>
+                        <NavLink to="/">Voltar</NavLink>
                     </div>
                 </div>
                 <div className={styles.discordContainer}>
