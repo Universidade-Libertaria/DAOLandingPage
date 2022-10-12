@@ -14,7 +14,6 @@ export function Step({ step, text, link }: StepProps) {
                 <div className={styles.stepContainer}>
                     <hr />
                     <h2>{step}</h2>
-
                     <hr />
                 </div>
                 <p>{text}</p>

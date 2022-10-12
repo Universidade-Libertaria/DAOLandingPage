@@ -1,0 +1,128 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+
+    margin: 0 2rem;
+}
+
+.wrapper img {
+    max-width: 22rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5rem;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.blackLineContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    gap: 2rem;
+}
+
+.blackLineContainer p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--yellow-500);
+}
+
+.blackLineContainer a {
+    width: 100%;
+    max-width: 20rem;
+    height: 3.75rem;
+    border: none;
+    border-radius: 93px;
+    background-color: var(--yellow-500);
+    color: var(--black-200);
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.blackLineContainer a:hover {
+    rotate: 2.5deg;
+    transition: 0.3s;
+}
+
+.discordContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.discordContainer p {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 70%;
+    color: var(--yellow-500);
+}
+
+.discordContainer a {
+    background-color: var(--yellow-500);
+    color: var(--black-200);
+    padding: 1rem 6rem;
+
+    border-radius: 10px;
+}
+
+.discordContainer a:hover {
+    rotate: 2.5deg;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 913px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .container {
+        gap: 8rem;
+    }
+
+    .discordContainer p {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .container {
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 67.5%;
+    }
+
+    .container {
+        gap: 7rem;
+    }
+}
