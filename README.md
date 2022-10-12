@@ -2,4 +2,4 @@
 
 Landing Page da DAO da Universidade Libertária!
 <br/>
-Link: https://dao-landing-page-fawn.vercel.app/
+Link: https://dao-landing-page-psi.vercel.app/
