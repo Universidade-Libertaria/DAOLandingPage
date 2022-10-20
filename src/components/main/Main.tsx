@@ -11,7 +11,7 @@ export function Main() {
             </h3>
 
             <a
-                href="https://onedrive.live.com/edit.aspx?resid=543CC2324671828D!27805&ithint=file%2cdocx&authkey=!ADYfTRYrpX71JJ8"
+                href="https://1drv.ms/w/s!Ao2CcUYywjxUgdkdNh9NFiulfvUknw"
                 target="_blank"
             >
                 Whitepapper
