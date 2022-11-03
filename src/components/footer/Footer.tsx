@@ -4,12 +4,14 @@ import {
     YoutubeLogo,
     FacebookLogo,
 } from "phosphor-react";
+import { useTranslation } from "react-i18next";
 import styles from "./footer.module.css";
 
 export function Footer() {
+    const { t } = useTranslation();
     return (
         <div className={styles.wrapper}>
-            <h3>Nossas Redes Sociais</h3>
+            <h3>{t("socialMedia")}</h3>
             <div className={styles.buttonsContainer}>
                 <a href="https://twitter.com/UniversidadeLi3" target="_blank">
                     <TwitterLogo size={35} />

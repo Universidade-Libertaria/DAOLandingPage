@@ -1,8 +1,10 @@
+import { useTranslation } from "react-i18next";
 import styles from "./form.module.css";
 export function Form() {
+    const { t } = useTranslation();
     return (
         <>
-            <h2 className={styles.donateTittle}>Participe!</h2>
+            <h2 className={styles.donateTittle}>{t("participate")}</h2>
             <form
                 autoComplete="false"
                 role="form"
@@ -35,7 +37,7 @@ export function Form() {
                                 name="mauticform[nome]"
                                 className="mauticform-input"
                                 type="text"
-                                placeholder="Nome"
+                                placeholder={t("formName")}
                                 required
                             />
                             <span
@@ -52,7 +54,7 @@ export function Form() {
                                 name="mauticform[sobrenome]"
                                 className="mauticform-input"
                                 type="text"
-                                placeholder="Sobrenome"
+                                placeholder={t("formLastName")}
                                 required
                             />
                             <span
@@ -69,7 +71,7 @@ export function Form() {
                                 name="mauticform[email]"
                                 className="mauticform-input"
                                 type="email"
-                                placeholder="Email"
+                                placeholder={t("formEmail")}
                                 required
                             />
                             <span
@@ -86,7 +88,7 @@ export function Form() {
                                 name="mauticform[numero_de_contato]"
                                 className="mauticform-input"
                                 type="tel"
-                                placeholder="Número de contato"
+                                placeholder={t("formContact")}
                                 required
                             />
                             <span
@@ -101,7 +103,7 @@ export function Form() {
                                 required
                             >
                                 <option value="" disabled selected hidden>
-                                    Escolha o valor
+                                    {t("formValue")}
                                 </option>
                                 <option value="Até 500">Até 500 reais</option>
                                 <option value="Entre 500 - 1000 ">
@@ -129,7 +131,7 @@ export function Form() {
                                 id="mauticform_input_daoprevenda_submit"
                                 className="mauticform-button btn btn-default"
                             >
-                                Enviar
+                                {t("submitButton")}
                             </button>
                         </div>
                     </div>

@@ -1,0 +1,28 @@
+{
+    "translation": {
+        "title": "Building freedom in practice",
+        "selectlanguage": "Select your language",
+        "subtitle": "We are a decentralized, private and open organization that develops and supports projects that defend individual freedom and private property.",
+        "whitepaperButton": "WHITEPAPER",
+        "projectsCTA": "Some of our ongoing projects:",
+        "konkin": "Editora Konkin aims to make available all the great international libertarian literature in Portuguese, as well as to promote Brazilian authorial production.",
+        "gazeta": "Gazeta Libertária is an online newspaper committed to bringing a libertarian vision of news, as well as spreading and disseminating libertarian culture, contributing with various texts on politics, economics, law, technology and cryptocurrencies.",
+        "cl": "Clube da Liberdade is a platform with exclusive courses on law, economics, philosophy, libertarianism, cryptocurrencies and new technologies. Free and paid courses.",
+        "daoCTA": "How to participate in the DAO",
+        "joinDiscordCTA": "Join Discord Server",
+        "step1": "It's where everyday life happens, where members interact, discuss next steps and make projects happen. There you will find everything you need to be able to participate in the DAO.",
+        "discordButton": "ACCESS HERE",
+        "tokensCTA": "Receive and use UL Tokens",
+        "step2": "You receive UL tokens when you do activities at DAO or when you donate to the project. You can then use your tokens to help decide the future of DAO and its projects or to buy the organization's products and services.",
+        "beFirstCTA": "Be one of the first",
+        "step3": "Be one of the first to join DAO. Fill out the form below and find out as soon as the tokens are available!",
+        "participate": "Participate!",
+        "formName": "Name",
+        "formLastName":"Last Name",
+        "formEmail": "Email",
+        "formContact": "Contact number",
+        "formValue": "Choose the value",
+        "submitButton" : "Submit",
+        "socialMedia" : "Our Social Networks"
+    }
+}

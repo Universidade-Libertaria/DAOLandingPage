@@ -1,22 +1,20 @@
+import { useTranslation } from "react-i18next";
 import styles from "./main.module.css";
 
 export function Main() {
+    const { t } = useTranslation();
     return (
         <div className={styles.wrapper}>
-            <h1>Construindo a liberdade na prática</h1>
-            <h3>
-                Somos uma organização descentralizada, privada e aberta que
-                desenvolve e apoia projetos que defendam a liberdade individual
-                e a propriedade privada.
-            </h3>
+            <h1>{t("title")}</h1>
+            <h3>{t("subtitle")}</h3>
 
             <a
                 href="https://1drv.ms/w/s!Ao2CcUYywjxUgdkdNh9NFiulfvUknw"
                 target="_blank"
             >
-                Whitepapper
+                {t("whitepaperButton")}
             </a>
-            <h2>Alguns de nossos projetos em andamento:</h2>
+            <h2>{t("projectsCTA")}</h2>
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import styles from "./step.module.css";
 import { DiscordLogo } from "phosphor-react";
+import { useTranslation } from "react-i18next";
 
 interface StepProps {
     step: string;
@@ -8,6 +9,7 @@ interface StepProps {
 }
 
 export function Step({ step, text, link }: StepProps) {
+    const { t } = useTranslation();
     return (
         <>
             <div className={styles.wrapper}>
@@ -20,7 +22,7 @@ export function Step({ step, text, link }: StepProps) {
                 {link && (
                     <a href={link} target="_blank">
                         <DiscordLogo size={32} />
-                        <p>Acesse Aqui</p>
+                        <p>{t("discordButton")}</p>
                     </a>
                 )}
             </div>

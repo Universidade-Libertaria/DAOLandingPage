@@ -1,0 +1,43 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--black-400);
+    padding: 0.2rem 0.5rem;
+
+    border-radius: 10px;
+}
+
+.wrapper button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.wrapper button:hover {
+    filter: brightness(150%);
+}
+
+.wrapper button + button {
+    border-left: 2px solid whitesmoke;
+    padding-left: 1.25rem;
+}
+
+.wrapper button img {
+    height: 1.5625rem;
+    width: 1.5625rem;
+}
+
+.wrapper > button > span {
+    color: white;
+    font-size: 0.6875rem;
+    text-align: center;
+    font-weight: bold;
+}
