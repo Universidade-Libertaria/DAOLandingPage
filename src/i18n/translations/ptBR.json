@@ -23,6 +23,10 @@
     "formEmail": "Email",
     "formContact": "Número de contato",
     "formValue": "Escolha o valor",
+    "value1": "Até 500 reais",
+    "value2": "Entre 500 a 1000 reais",
+    "value3": "Entre 1000 a 5000 reais",
+    "value4": "Mais de 5000 reais",
     "submitButton": "ENVIAR",
     "socialMedia": "Nossas Redes Sociais"
     }

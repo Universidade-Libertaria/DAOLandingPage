@@ -105,16 +105,14 @@ export function Form() {
                                 <option value="" disabled selected hidden>
                                     {t("formValue")}
                                 </option>
-                                <option value="Até 500">Até 500 reais</option>
+                                <option value="Até 500">{t("value1")}</option>
                                 <option value="Entre 500 - 1000 ">
-                                    Entre 500 e 1000 reais
+                                    {t("value2")}
                                 </option>
                                 <option value="Entre 1000 - 5000">
-                                    Entre 1000 e 5000 reais
+                                    {t("value3")}
                                 </option>
-                                <option value="5000 +">
-                                    Mais de 5000 reais
-                                </option>
+                                <option value="5000 +">{t("value4")}</option>
                             </select>
                             <span
                                 className="mauticform-errormsg"

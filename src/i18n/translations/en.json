@@ -22,6 +22,10 @@
         "formEmail": "Email",
         "formContact": "Contact number",
         "formValue": "Choose the value",
+        "value1": "Until 500 reais",
+        "value2": "Between 500 and 1000 reais",
+        "value3": "Between 1000 and 5000 reais",
+        "value4": "More than 5000 reais",
         "submitButton" : "Submit",
         "socialMedia" : "Our Social Networks"
     }
