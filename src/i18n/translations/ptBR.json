@@ -28,6 +28,11 @@
     "value3": "Entre 1000 a 5000 reais",
     "value4": "Mais de 5000 reais",
     "submitButton": "ENVIAR",
-    "socialMedia": "Nossas Redes Sociais"
+    "socialMedia": "Nossas Redes Sociais",
+    "TPTitle": "Formulário Enviado com Sucesso!",
+    "TPSubtitle": "Entraremos em contato assim que tivermos novidades!",
+    "TPVoltarButton": "Voltar",
+    "TPDiscordCTA": " Se quiser ficar atualizado de tudo o que está acontecendo acesse o nosso servidor do Discord"
+    
     }
 }

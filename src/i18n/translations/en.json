@@ -27,6 +27,10 @@
         "value3": "Between 1000 and 5000 reais",
         "value4": "More than 5000 reais",
         "submitButton" : "Submit",
-        "socialMedia" : "Our Social Networks"
+        "socialMedia" : "Our Social Networks",
+        "TPTitle": "Form Submitted Successfully!",
+        "TPSubtitle": "We'll be in touch as soon as we have news!",
+        "TPVoltarButton": "Back",
+        "TPDiscordCTA": "If you want to update everything available on our Discord server"
     }
 }

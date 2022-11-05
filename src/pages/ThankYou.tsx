@@ -2,27 +2,24 @@ import styles from "../styles/thankYou.module.css";
 import logo from "../assets/Logo.svg";
 import { DiscordLogo } from "phosphor-react";
 import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export function ThankYou() {
+    const [t] = useTranslation();
     return (
         <>
             <div className={styles.wrapper}>
                 <div className={styles.container}>
                     <img src={logo} alt="" />
-                    <h1>Formulário Enviado com Sucesso!</h1>
+                    <h1>{t("TPTitle")}</h1>
                     <div className={styles.blackLineContainer}>
-                        <p>
-                            Entraremos em contato assim que tivermos novidades!
-                        </p>
+                        <p>{t("TPSubtitle")}</p>
 
-                        <NavLink to="/">Voltar</NavLink>
+                        <NavLink to="/">{t("TPVoltarButton")}</NavLink>
                     </div>
                 </div>
                 <div className={styles.discordContainer}>
-                    <p>
-                        Se quiser ficar atualizado de tudo o que está
-                        acontecendo acesse o nosso servidor do Discord
-                    </p>
+                    <p>{t("TPDiscordCTA")}</p>
                     <a
                         href="https://discord.gg/universolibertario"
                         target="_blank"
