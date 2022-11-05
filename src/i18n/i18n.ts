@@ -13,6 +13,7 @@ i18n.use(initReactI18next).init({
         en: enJson,
         ptBR: ptBrJson
     },
+    
 })
 
 export default i18n;
