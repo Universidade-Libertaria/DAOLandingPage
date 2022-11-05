@@ -1,16 +1,9 @@
-.wrapper {
+.buttonsContainer {
     display: flex;
+
     align-items: center;
     justify-content: center;
     gap: 1rem;
-}
-
-.buttonsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
     background-color: var(--black-400);
     padding: 0.4rem;
 
@@ -21,7 +14,7 @@
     outline: none;
 
     color: aliceblue;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .buttonsContainer:hover {
@@ -33,7 +26,9 @@
     border: none;
     cursor: pointer;
     outline: none;
-    width: 100%;
+
+    text-align: center;
+    /* background-color: aqua; */
 }
 
 .optionsContainer:hover {
@@ -41,12 +36,13 @@
     background-color: var(--black-400);
 }
 
-.wrapper button img {
-    height: 1.5625rem;
-    width: 1.5625rem;
+.buttonsContainer button img {
+    height: 1.125rem;
+    width: 1.125rem;
+    width: 100%;
 }
 
-.wrapper > button > span {
+.buttonsContainer > button > span {
     color: white;
     font-size: 0.6875rem;
     text-align: center;

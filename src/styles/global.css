@@ -34,10 +34,17 @@ button {
     cursor: pointer;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1026px) {
     body {
         background-color: #f3bf22;
-        background-image: linear-gradient(180deg, #f3bf22 41%, #161616 38%);
+        background-image: linear-gradient(180deg, #f3bf22 38%, #161616 38%);
+    }
+}
+
+@media (max-width: 1015px) {
+    body {
+        background-color: #f3bf22;
+        background-image: linear-gradient(180deg, #f3bf22 39%, #161616 38%);
     }
 }
 @media (max-width: 915px) {
@@ -51,6 +58,20 @@ button {
     body {
         background-color: #f3bf22;
         background-image: linear-gradient(180deg, #f3bf22 38%, #161616 38%);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: #f3bf22;
+        background-image: linear-gradient(180deg, #f3bf22 40%, #161616 38%);
+    }
+}
+
+@media (max-width: 732px) {
+    body {
+        background-color: #f3bf22;
+        background-image: linear-gradient(180deg, #f3bf22 46%, #161616 38%);
     }
 }
 
@@ -68,9 +89,23 @@ button {
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 412px) {
+    body {
+        background-color: #f3bf22;
+        background-image: linear-gradient(180deg, #f3bf22 47%, #161616 38%);
+    }
+}
+
+@media (max-width: 395px) {
     body {
         background-color: #f3bf22;
         background-image: linear-gradient(180deg, #f3bf22 46%, #161616 38%);
+    }
+}
+
+@media (max-width: 300px) {
+    body {
+        background-color: #f3bf22;
+        background-image: linear-gradient(180deg, #f3bf22 47%, #161616 38%);
     }
 }

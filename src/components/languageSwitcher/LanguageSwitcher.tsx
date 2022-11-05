@@ -25,31 +25,26 @@ export const LanguageSwitcher = () => {
         setIsSelected(!isSelected);
     }
     return (
-        <div className={styles.wrapper}>
-            <button
-                onClick={handleSetIsSelected}
-                className={styles.buttonsContainer}
-            >
-                <Globe size={25} />
-                {languageSwitcher.map((languageOption) => (
-                    <button
-                        style={{
-                            display: isSelected ? "block" : "none",
-                        }}
-                        className={styles.optionsContainer}
-                        key={languageOption.value}
-                        onClick={() => {
-                            i18n.changeLanguage(languageOption.value);
-                        }}
-                    >
-                        <img
-                            src={languageOption.flag}
-                            alt={languageOption.name}
-                        />
-                        {/* <span>{languageOption.name}</span> */}
-                    </button>
-                ))}
-            </button>
-        </div>
+        <button
+            onClick={handleSetIsSelected}
+            className={styles.buttonsContainer}
+        >
+            <Globe size={25} />
+            {languageSwitcher.map((languageOption) => (
+                <button
+                    style={{
+                        display: isSelected ? "block" : "none",
+                    }}
+                    className={styles.optionsContainer}
+                    key={languageOption.value}
+                    onClick={() => {
+                        i18n.changeLanguage(languageOption.value);
+                    }}
+                >
+                    <img src={languageOption.flag} alt={languageOption.name} />
+                    {/* <span>{languageOption.name}</span> */}
+                </button>
+            ))}
+        </button>
     );
 };
