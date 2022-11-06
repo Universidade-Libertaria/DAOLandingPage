@@ -1,0 +1,33 @@
+{
+    
+    "translation": {
+        "title": "Construir la libertad en la práctica",
+        "selectlanguage": "Elige tu idioma",
+        "subtitle": "Somos una organización descentralizada, privada y abierta que desarrolla y apoya proyectos que defienden la libertad individual y la propiedad privada.",
+        "whitepaperButton": "WHITEPAPER",
+        "projectsCTA": "Algunos de nuestros proyectos en curso:",
+        "konkin": "La Editora Konkin tiene como objetivo poner a disposición toda la gran literatura libertaria internacional en portugués, así como promover la producción autoral brasileña" ,
+        "gazeta": "La Gazeta Libertaria es un periódico online comprometido con aportar una visión libertaria de las noticias, además de esparcir y difundir la cultura libertaria, contribuyendo con diversos textos sobre política, economía, derecho, tecnología y criptomonedas" ,
+        "cl": "El Clube de la Liberdad es una plataforma con cursos exclusivos sobre derecho, economía, filosofía, libertarismo, criptomonedas y nuevas tecnologías. Cursos gratuitos y pagos." ,
+        "daoCTA": "Cómo participar en DAO",
+        "joinDiscordCTA": "Unirse al servidor de Discord",
+        "step1": "Es donde sucede el día a día, donde los miembros interactúan, discuten los próximos pasos y hacen que los proyectos sucedan. Allí encuentras todo lo que necesitas para poder participar en la DAO" ,
+        "discordButton": "ACCEDER AQUÍ",
+        "TOKENSCTA": "Recibir y usar tokens UL",
+        "step2": "Recibe tokens UL cuando realiza actividades DAO o dona al proyecto. Luego puede usar sus tokens para ayudar a decidir el futuro de la DAO y de sus proyectos, o para comprar los productos y servicios de la organización" ,
+        "beFirstCTA": "Sé uno de los primeros",
+        "step3": "Sé uno de los primeros en unirte al DAO. ¡Complete el siguiente formulario y sepa tan pronto como los tokens estén disponibles!" ,
+        "participar": "¡Participar!" ,
+        "formName": "Nome",
+        "formLastName": "Apellido",
+        "formEmail": "Correo electrónico",
+        "formContact": "Número de contacto",
+        "formValue": "Elija el valor",
+        "valor1": "Hasta 500 reales",
+        "valor2": "Entre 500 y 1000 reales",
+        "valor3": "Entre 1000 y 5000 reales",
+        "value4": "Más de 5000 reales",
+        "submitButton": "ENVIAR",
+        "socialMedia":  "Nuestras Redes Sociales"
+        }
+}

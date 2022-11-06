@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import br from "../../assets/br.svg";
 import us from "../../assets/us.svg";
+import es from "../../assets/es.svg";
 import styles from "./languageSwitcher.module.css";
 import { Globe } from "phosphor-react";
 
@@ -15,6 +16,11 @@ const languageSwitcher = [
         name: "English",
         value: "en",
         flag: us,
+    },
+    {
+        name: "Espanhol",
+        value: "es",
+        flag: es,
     },
 ];
 
