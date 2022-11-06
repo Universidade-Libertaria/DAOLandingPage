@@ -1,7 +1,7 @@
 .buttonsContainer {
     display: flex;
 
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     gap: 1rem;
     background-color: var(--black-400);
@@ -14,7 +14,6 @@
     outline: none;
 
     color: aliceblue;
-    /* font-weight: bold; */
 }
 
 .buttonsContainer:hover {
@@ -28,7 +27,6 @@
     outline: none;
 
     text-align: center;
-    /* background-color: aqua; */
 }
 
 .optionsContainer:hover {
@@ -47,4 +45,10 @@
     font-size: 0.6875rem;
     text-align: center;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .buttonsContainer {
+        align-items: center;
+    }
 }
