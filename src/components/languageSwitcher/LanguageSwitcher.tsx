@@ -5,6 +5,7 @@ import us from "../../assets/us.svg";
 import es from "../../assets/es.svg";
 import styles from "./languageSwitcher.module.css";
 import { Globe } from "phosphor-react";
+import Cookies from "js-cookie";
 
 const languageSwitcher = [
     {
@@ -45,10 +46,10 @@ export const LanguageSwitcher = () => {
                     key={languageOption.value}
                     onClick={() => {
                         i18n.changeLanguage(languageOption.value);
+                        Cookies.set("i18next", languageOption.value);
                     }}
                 >
                     <img src={languageOption.flag} alt={languageOption.name} />
-                    {/* <span>{languageOption.name}</span> */}
                 </button>
             ))}
         </button>

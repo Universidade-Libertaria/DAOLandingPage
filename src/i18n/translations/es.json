@@ -28,6 +28,10 @@
         "valor3": "Entre 1000 y 5000 reales",
         "value4": "Más de 5000 reales",
         "submitButton": "ENVIAR",
-        "socialMedia":  "Nuestras Redes Sociales"
+        "socialMedia":  "Nuestras Redes Sociales",
+        "TPTitle": "¡Formulario enviado con éxito!",
+        "TPSubtitle": "¡Nos pondremos en contacto tan pronto como tengamos noticias!",
+        "TPVoltarButton": "Regresar",
+        "TPDiscordCTA": "Si quieres estar al día de todo lo que está pasando, visita nuestro servidor de Discord"
         }
 }
